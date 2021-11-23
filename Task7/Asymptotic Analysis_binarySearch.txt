@@ -1,0 +1,9 @@
+Asymptotic analysis of Binary Search:
+
+We need m number of splits to get out target from a set of n elements. So in 
+m+1 splits a double in our collection results 2n. If we have a collection
+of elements which are power of 2, result of using this logorithm is to base 2.
+
+Thus m+1 is the maximum no. of splits we would require to find our target.
+
+Therefore in the worst case Time Complexity of Binary Search Algorithm is O(logn).
