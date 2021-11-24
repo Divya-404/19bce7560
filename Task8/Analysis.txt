@@ -1,0 +1,13 @@
+Scanning for each point(p) if present in each segment(s).
+for(i=0;i<p;i++)    runs p times
+{ 
+for(j=0;j<s;j++)    runs n times  
+{   
+if(P[i]>=S[j][0] && P[i]<=S[j][1])   
+c++;  
+} 
+System.out.print(c + " ");
+ c=0;
+}
+Therefore, Time complexity is O(s*p)
+i.e.   O(n2) 
